@@ -1,0 +1,7 @@
+---
+- name: Install updates
+  hosts: all
+  vars:
+    update_reboot: no
+  roles:
+    - {role: roles/haghighi_ahmad.update}
